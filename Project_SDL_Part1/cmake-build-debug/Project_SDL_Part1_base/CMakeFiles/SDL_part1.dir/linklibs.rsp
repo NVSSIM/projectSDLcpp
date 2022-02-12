@@ -1,0 +1,1 @@
+  -LC:/Users/33668/source/repos/Project_SDL_Part1/Project_SDL_Part1_base/SDL2/lib/x64  -LC:/Users/33668/source/repos/Project_SDL_Part1/Project_SDL_Part1_base/SDL2_image/lib/x64  -lSDL2main -lSDL2 -static -static-libstdc++ -static-libgcc -lSDL2 -lSDL2_image -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
