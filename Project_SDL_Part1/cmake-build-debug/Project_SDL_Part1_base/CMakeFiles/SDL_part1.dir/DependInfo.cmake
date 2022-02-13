@@ -4,23 +4,19 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/33668/source/repos/Project_SDL_Part1/Project_SDL_Part1_base/Project_SDL1.cpp" "C:/Users/33668/source/repos/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Project_SDL1.cpp.obj"
-  "C:/Users/33668/source/repos/Project_SDL_Part1/Project_SDL_Part1_base/main.cpp" "C:/Users/33668/source/repos/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/main.cpp.obj"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../Project_SDL_Part1_base/SDL2/include"
-  "../Project_SDL_Part1_base/SDL2_image/include"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Project_SDL1.cpp" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Project_SDL1.cpp.o" "gcc" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Project_SDL1.cpp.o.d"
+  "/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/character.cpp" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/character.cpp.o" "gcc" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/character.cpp.o.d"
+  "/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/ground.cpp" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/ground.cpp.o" "gcc" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/ground.cpp.o.d"
+  "/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/main.cpp" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/main.cpp.o" "gcc" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/main.cpp.o.d"
+  "/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/position.cpp" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/position.cpp.o" "gcc" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/position.cpp.o.d"
+  "/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/sheep.cpp" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheep.cpp.o" "gcc" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheep.cpp.o.d"
+  "/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/sheperd.cpp" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheperd.cpp.o" "gcc" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheperd.cpp.o.d"
+  "/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/sheperd_dog.cpp" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheperd_dog.cpp.o" "gcc" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheperd_dog.cpp.o.d"
+  "/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/wolf.cpp" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/wolf.cpp.o" "gcc" "Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/wolf.cpp.o.d"
   )
 
 # Targets to which this target links.

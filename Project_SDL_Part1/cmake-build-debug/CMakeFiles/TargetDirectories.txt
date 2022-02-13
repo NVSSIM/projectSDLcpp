@@ -1,5 +1,5 @@
-C:/Users/33668/source/repos/Project_SDL_Part1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/33668/source/repos/Project_SDL_Part1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/33668/source/repos/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir
-C:/Users/33668/source/repos/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/edit_cache.dir
-C:/Users/33668/source/repos/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/rebuild_cache.dir
+/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/rebuild_cache.dir
+/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/edit_cache.dir
+/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir

@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SDL_part1.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\SDL_part1.dir/objects.a @CMakeFiles\SDL_part1.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\SDL_part1.dir/objects.a -Wl,--no-whole-archive -o SDL_part1.exe -Wl,--out-implib,libSDL_part1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SDL_part1.dir\linklibs.rsp
+/usr/bin/c++ -g -rdynamic CMakeFiles/SDL_part1.dir/main.cpp.o CMakeFiles/SDL_part1.dir/Project_SDL1.cpp.o CMakeFiles/SDL_part1.dir/character.cpp.o CMakeFiles/SDL_part1.dir/position.cpp.o CMakeFiles/SDL_part1.dir/ground.cpp.o CMakeFiles/SDL_part1.dir/sheep.cpp.o CMakeFiles/SDL_part1.dir/wolf.cpp.o CMakeFiles/SDL_part1.dir/sheperd.cpp.o CMakeFiles/SDL_part1.dir/sheperd_dog.cpp.o -o SDL_part1  -lSDL2 
