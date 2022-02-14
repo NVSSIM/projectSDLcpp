@@ -29,7 +29,6 @@ constexpr float SHEPERD_VELOCITY=4;
 // Helper function to initialize SDL
 void init();
 
-
 typedef struct {
   SDL_Renderer *renderer;
   SDL_Window *window;

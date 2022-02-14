@@ -29,6 +29,6 @@ ELSE()
   include_directories(${SDL2_INCLUDE_DIRS})
   include_directories(${SDL2_IMAGE_INCLUDE_DIRS})
 
-  add_executable(SDL_part1 main.cpp Project_SDL1.cpp application.h ground.h character.cpp character.h position.cpp position.h ground.cpp sheep.cpp sheep.h wolf.cpp wolf.h Observer.h sheperd.cpp sheperd.h sheperd_dog.cpp sheperd_dog.h)
+  add_executable(SDL_part1 main.cpp Project_SDL1.cpp application.h Ground.h Character.cpp Character.h Position.cpp Position.h Ground.cpp Sheep.cpp Sheep.h Wolf.cpp Wolf.h Sheperd.cpp Sheperd.h Sheperd_dog.cpp Sheperd_dog.h WolfObserver.h SheepObserver.h GroundUtils.h)
   target_link_libraries(SDL_part1 ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARIES})
 ENDIF()

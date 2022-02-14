@@ -68,7 +68,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Observer.h">
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Character.cpp">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Character.h">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Ground.cpp">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Ground.h">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/GroundUtils.h">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Position.cpp">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Position.h">
 			<Option target="SDL_part1"/>
 		</Unit>
 		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Project_SDL1.cpp">
@@ -77,52 +95,40 @@
 		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Project_SDL1.h">
 			<Option target="SDL_part1"/>
 		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheep.cpp">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheep.h">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/SheepObserver.h">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd.cpp">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd.h">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.cpp">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.h">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Wolf.cpp">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Wolf.h">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/WolfObserver.h">
+			<Option target="SDL_part1"/>
+		</Unit>
 		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/application.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/character.cpp">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/character.h">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/ground.cpp">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/ground.h">
-			<Option target="SDL_part1"/>
-		</Unit>
 		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/main.cpp">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/position.cpp">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/position.h">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/sheep.cpp">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/sheep.h">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/sheperd.cpp">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/sheperd.h">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/sheperd_dog.cpp">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/sheperd_dog.h">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/wolf.cpp">
-			<Option target="SDL_part1"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/wolf.h">
 			<Option target="SDL_part1"/>
 		</Unit>
 		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/CMakeLists.txt">

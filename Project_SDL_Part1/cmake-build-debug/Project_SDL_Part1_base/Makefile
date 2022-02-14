@@ -130,6 +130,78 @@ SDL_part1/fast:
 	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build
 .PHONY : SDL_part1/fast
 
+Character.o: Character.cpp.o
+.PHONY : Character.o
+
+# target to build an object file
+Character.cpp.o:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Character.cpp.o
+.PHONY : Character.cpp.o
+
+Character.i: Character.cpp.i
+.PHONY : Character.i
+
+# target to preprocess a source file
+Character.cpp.i:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Character.cpp.i
+.PHONY : Character.cpp.i
+
+Character.s: Character.cpp.s
+.PHONY : Character.s
+
+# target to generate assembly for a file
+Character.cpp.s:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Character.cpp.s
+.PHONY : Character.cpp.s
+
+Ground.o: Ground.cpp.o
+.PHONY : Ground.o
+
+# target to build an object file
+Ground.cpp.o:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Ground.cpp.o
+.PHONY : Ground.cpp.o
+
+Ground.i: Ground.cpp.i
+.PHONY : Ground.i
+
+# target to preprocess a source file
+Ground.cpp.i:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Ground.cpp.i
+.PHONY : Ground.cpp.i
+
+Ground.s: Ground.cpp.s
+.PHONY : Ground.s
+
+# target to generate assembly for a file
+Ground.cpp.s:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Ground.cpp.s
+.PHONY : Ground.cpp.s
+
+Position.o: Position.cpp.o
+.PHONY : Position.o
+
+# target to build an object file
+Position.cpp.o:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Position.cpp.o
+.PHONY : Position.cpp.o
+
+Position.i: Position.cpp.i
+.PHONY : Position.i
+
+# target to preprocess a source file
+Position.cpp.i:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Position.cpp.i
+.PHONY : Position.cpp.i
+
+Position.s: Position.cpp.s
+.PHONY : Position.s
+
+# target to generate assembly for a file
+Position.cpp.s:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Position.cpp.s
+.PHONY : Position.cpp.s
+
 Project_SDL1.o: Project_SDL1.cpp.o
 .PHONY : Project_SDL1.o
 
@@ -154,53 +226,101 @@ Project_SDL1.cpp.s:
 	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Project_SDL1.cpp.s
 .PHONY : Project_SDL1.cpp.s
 
-character.o: character.cpp.o
-.PHONY : character.o
+Sheep.o: Sheep.cpp.o
+.PHONY : Sheep.o
 
 # target to build an object file
-character.cpp.o:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/character.cpp.o
-.PHONY : character.cpp.o
+Sheep.cpp.o:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Sheep.cpp.o
+.PHONY : Sheep.cpp.o
 
-character.i: character.cpp.i
-.PHONY : character.i
+Sheep.i: Sheep.cpp.i
+.PHONY : Sheep.i
 
 # target to preprocess a source file
-character.cpp.i:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/character.cpp.i
-.PHONY : character.cpp.i
+Sheep.cpp.i:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Sheep.cpp.i
+.PHONY : Sheep.cpp.i
 
-character.s: character.cpp.s
-.PHONY : character.s
+Sheep.s: Sheep.cpp.s
+.PHONY : Sheep.s
 
 # target to generate assembly for a file
-character.cpp.s:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/character.cpp.s
-.PHONY : character.cpp.s
+Sheep.cpp.s:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Sheep.cpp.s
+.PHONY : Sheep.cpp.s
 
-ground.o: ground.cpp.o
-.PHONY : ground.o
+Sheperd.o: Sheperd.cpp.o
+.PHONY : Sheperd.o
 
 # target to build an object file
-ground.cpp.o:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/ground.cpp.o
-.PHONY : ground.cpp.o
+Sheperd.cpp.o:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Sheperd.cpp.o
+.PHONY : Sheperd.cpp.o
 
-ground.i: ground.cpp.i
-.PHONY : ground.i
+Sheperd.i: Sheperd.cpp.i
+.PHONY : Sheperd.i
 
 # target to preprocess a source file
-ground.cpp.i:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/ground.cpp.i
-.PHONY : ground.cpp.i
+Sheperd.cpp.i:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Sheperd.cpp.i
+.PHONY : Sheperd.cpp.i
 
-ground.s: ground.cpp.s
-.PHONY : ground.s
+Sheperd.s: Sheperd.cpp.s
+.PHONY : Sheperd.s
 
 # target to generate assembly for a file
-ground.cpp.s:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/ground.cpp.s
-.PHONY : ground.cpp.s
+Sheperd.cpp.s:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Sheperd.cpp.s
+.PHONY : Sheperd.cpp.s
+
+Sheperd_dog.o: Sheperd_dog.cpp.o
+.PHONY : Sheperd_dog.o
+
+# target to build an object file
+Sheperd_dog.cpp.o:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Sheperd_dog.cpp.o
+.PHONY : Sheperd_dog.cpp.o
+
+Sheperd_dog.i: Sheperd_dog.cpp.i
+.PHONY : Sheperd_dog.i
+
+# target to preprocess a source file
+Sheperd_dog.cpp.i:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Sheperd_dog.cpp.i
+.PHONY : Sheperd_dog.cpp.i
+
+Sheperd_dog.s: Sheperd_dog.cpp.s
+.PHONY : Sheperd_dog.s
+
+# target to generate assembly for a file
+Sheperd_dog.cpp.s:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Sheperd_dog.cpp.s
+.PHONY : Sheperd_dog.cpp.s
+
+Wolf.o: Wolf.cpp.o
+.PHONY : Wolf.o
+
+# target to build an object file
+Wolf.cpp.o:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Wolf.cpp.o
+.PHONY : Wolf.cpp.o
+
+Wolf.i: Wolf.cpp.i
+.PHONY : Wolf.i
+
+# target to preprocess a source file
+Wolf.cpp.i:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Wolf.cpp.i
+.PHONY : Wolf.cpp.i
+
+Wolf.s: Wolf.cpp.s
+.PHONY : Wolf.s
+
+# target to generate assembly for a file
+Wolf.cpp.s:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Wolf.cpp.s
+.PHONY : Wolf.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -226,126 +346,6 @@ main.cpp.s:
 	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-position.o: position.cpp.o
-.PHONY : position.o
-
-# target to build an object file
-position.cpp.o:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/position.cpp.o
-.PHONY : position.cpp.o
-
-position.i: position.cpp.i
-.PHONY : position.i
-
-# target to preprocess a source file
-position.cpp.i:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/position.cpp.i
-.PHONY : position.cpp.i
-
-position.s: position.cpp.s
-.PHONY : position.s
-
-# target to generate assembly for a file
-position.cpp.s:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/position.cpp.s
-.PHONY : position.cpp.s
-
-sheep.o: sheep.cpp.o
-.PHONY : sheep.o
-
-# target to build an object file
-sheep.cpp.o:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheep.cpp.o
-.PHONY : sheep.cpp.o
-
-sheep.i: sheep.cpp.i
-.PHONY : sheep.i
-
-# target to preprocess a source file
-sheep.cpp.i:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheep.cpp.i
-.PHONY : sheep.cpp.i
-
-sheep.s: sheep.cpp.s
-.PHONY : sheep.s
-
-# target to generate assembly for a file
-sheep.cpp.s:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheep.cpp.s
-.PHONY : sheep.cpp.s
-
-sheperd.o: sheperd.cpp.o
-.PHONY : sheperd.o
-
-# target to build an object file
-sheperd.cpp.o:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheperd.cpp.o
-.PHONY : sheperd.cpp.o
-
-sheperd.i: sheperd.cpp.i
-.PHONY : sheperd.i
-
-# target to preprocess a source file
-sheperd.cpp.i:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheperd.cpp.i
-.PHONY : sheperd.cpp.i
-
-sheperd.s: sheperd.cpp.s
-.PHONY : sheperd.s
-
-# target to generate assembly for a file
-sheperd.cpp.s:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheperd.cpp.s
-.PHONY : sheperd.cpp.s
-
-sheperd_dog.o: sheperd_dog.cpp.o
-.PHONY : sheperd_dog.o
-
-# target to build an object file
-sheperd_dog.cpp.o:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheperd_dog.cpp.o
-.PHONY : sheperd_dog.cpp.o
-
-sheperd_dog.i: sheperd_dog.cpp.i
-.PHONY : sheperd_dog.i
-
-# target to preprocess a source file
-sheperd_dog.cpp.i:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheperd_dog.cpp.i
-.PHONY : sheperd_dog.cpp.i
-
-sheperd_dog.s: sheperd_dog.cpp.s
-.PHONY : sheperd_dog.s
-
-# target to generate assembly for a file
-sheperd_dog.cpp.s:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/sheperd_dog.cpp.s
-.PHONY : sheperd_dog.cpp.s
-
-wolf.o: wolf.cpp.o
-.PHONY : wolf.o
-
-# target to build an object file
-wolf.cpp.o:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/wolf.cpp.o
-.PHONY : wolf.cpp.o
-
-wolf.i: wolf.cpp.i
-.PHONY : wolf.i
-
-# target to preprocess a source file
-wolf.cpp.i:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/wolf.cpp.i
-.PHONY : wolf.cpp.i
-
-wolf.s: wolf.cpp.s
-.PHONY : wolf.s
-
-# target to generate assembly for a file
-wolf.cpp.s:
-	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/wolf.cpp.s
-.PHONY : wolf.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -355,33 +355,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SDL_part1"
+	@echo "... Character.o"
+	@echo "... Character.i"
+	@echo "... Character.s"
+	@echo "... Ground.o"
+	@echo "... Ground.i"
+	@echo "... Ground.s"
+	@echo "... Position.o"
+	@echo "... Position.i"
+	@echo "... Position.s"
 	@echo "... Project_SDL1.o"
 	@echo "... Project_SDL1.i"
 	@echo "... Project_SDL1.s"
-	@echo "... character.o"
-	@echo "... character.i"
-	@echo "... character.s"
-	@echo "... ground.o"
-	@echo "... ground.i"
-	@echo "... ground.s"
+	@echo "... Sheep.o"
+	@echo "... Sheep.i"
+	@echo "... Sheep.s"
+	@echo "... Sheperd.o"
+	@echo "... Sheperd.i"
+	@echo "... Sheperd.s"
+	@echo "... Sheperd_dog.o"
+	@echo "... Sheperd_dog.i"
+	@echo "... Sheperd_dog.s"
+	@echo "... Wolf.o"
+	@echo "... Wolf.i"
+	@echo "... Wolf.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... position.o"
-	@echo "... position.i"
-	@echo "... position.s"
-	@echo "... sheep.o"
-	@echo "... sheep.i"
-	@echo "... sheep.s"
-	@echo "... sheperd.o"
-	@echo "... sheperd.i"
-	@echo "... sheperd.s"
-	@echo "... sheperd_dog.o"
-	@echo "... sheperd_dog.i"
-	@echo "... sheperd_dog.s"
-	@echo "... wolf.o"
-	@echo "... wolf.i"
-	@echo "... wolf.s"
 .PHONY : help
 
 
