@@ -3,9 +3,6 @@
 //
 
 #include "Wolf.h"
-constexpr float DISTANCE_TO_EAT_SHEEP = 5;
-constexpr float WOLF_VELOCITY = 1;
-//"../../media/Wolf.png"
 
 Wolf::Wolf(int id, SDL_Surface* imagePtr,
            GroundUtils* groundUtils, WolfObserver* wolfObserver)

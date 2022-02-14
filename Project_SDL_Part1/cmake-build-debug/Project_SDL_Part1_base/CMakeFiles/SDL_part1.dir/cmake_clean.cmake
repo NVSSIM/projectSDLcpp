@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDL_part1.dir/Sheperd_dog.cpp.o.d"
   "CMakeFiles/SDL_part1.dir/Wolf.cpp.o"
   "CMakeFiles/SDL_part1.dir/Wolf.cpp.o.d"
+  "CMakeFiles/SDL_part1.dir/application.cpp.o"
+  "CMakeFiles/SDL_part1.dir/application.cpp.o.d"
   "CMakeFiles/SDL_part1.dir/main.cpp.o"
   "CMakeFiles/SDL_part1.dir/main.cpp.o.d"
   "SDL_part1"

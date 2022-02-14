@@ -28,7 +28,17 @@ constexpr float WOLF_DISTANCE_FROM_DOG = 10;
 constexpr float SHEPERD_VELOCITY=4;
 // Helper function to initialize SDL
 void init();
-
+int newID();
+static const float SHEEP_VELOCITY = 1;
+constexpr float SHEEP_BOOST = 1.2;
+constexpr int timeBeforeNewBaby= 10;
+constexpr int timeBeforeHungry = 20;
+constexpr float DISTANCE_TO_EAT_SHEEP = 3;
+constexpr float WOLF_VELOCITY = 1;
+SDL_Surface* newDogImage(SDL_Surface* window_surface_ptr_);
+SDL_Surface* newSheepImage(SDL_Surface* window_surface_ptr_);
+SDL_Surface* newWolfImage(SDL_Surface* window_surface_ptr_);
+SDL_Surface* newShepImage(SDL_Surface* window_surface_ptr_);
 typedef struct {
   SDL_Renderer *renderer;
   SDL_Window *window;

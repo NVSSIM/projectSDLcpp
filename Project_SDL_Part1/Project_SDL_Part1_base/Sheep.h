@@ -7,9 +7,6 @@
 
 #include "Character.h"
 #include "SheepObserver.h"
-static const float SHEEP_VELOCITY = 1;
-constexpr float SHEEP_BOOST = 1.2;
-constexpr int timeBeforeNewBaby= 10;
 
 class Sheep : public Character {
 public:

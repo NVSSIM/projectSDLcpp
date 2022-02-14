@@ -11,8 +11,6 @@
 #include "Character.h"
 #include "WolfObserver.h"
 
-constexpr int timeBeforeHungry = 20;
-
 class Wolf : public Character {
 public:
   int timeLeft = timeBeforeHungry;

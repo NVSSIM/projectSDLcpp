@@ -145,6 +145,9 @@
 		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/WolfObserver.h">
 			<Option target="SDL_part1"/>
 		</Unit>
+		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/application.cpp">
+			<Option target="SDL_part1"/>
+		</Unit>
 		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/application.h">
 			<Option target="SDL_part1"/>
 		</Unit>

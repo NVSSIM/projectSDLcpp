@@ -322,6 +322,30 @@ Wolf.cpp.s:
 	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Wolf.cpp.s
 .PHONY : Wolf.cpp.s
 
+application.o: application.cpp.o
+.PHONY : application.o
+
+# target to build an object file
+application.cpp.o:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/application.cpp.o
+.PHONY : application.cpp.o
+
+application.i: application.cpp.i
+.PHONY : application.i
+
+# target to preprocess a source file
+application.cpp.i:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/application.cpp.i
+.PHONY : application.cpp.i
+
+application.s: application.cpp.s
+.PHONY : application.s
+
+# target to generate assembly for a file
+application.cpp.s:
+	cd /home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/application.cpp.s
+.PHONY : application.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -379,6 +403,9 @@ help:
 	@echo "... Wolf.o"
 	@echo "... Wolf.i"
 	@echo "... Wolf.s"
+	@echo "... application.o"
+	@echo "... application.i"
+	@echo "... application.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
