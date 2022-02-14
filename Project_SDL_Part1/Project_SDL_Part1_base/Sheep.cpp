@@ -7,20 +7,9 @@
 Sheep::Sheep(int ID,
              SDL_Surface* image,
              GroundUtils* groundUtils,
-             SheepObserver* sheepObserver)
-:Character(ID, image, SHEEP_VELOCITY, groundUtils)
-{
-  auto gen = std::bind(std::uniform_int_distribution<int>(0,1),std::default_random_engine());
-  this->sex = gen() ? Male : Female;
-  this->sheepObserver = sheepObserver;
-  this->onBoost = false;
-}
-
-Sheep::Sheep(int ID,
-             SDL_Surface* image,
-             GroundUtils* groundUtils,
              Position position,
-             SheepObserver* sheepObserver)
+             SheepObserver* sheepObserver,
+             RandomPosition randomPosition)
 :Character(ID, image, SHEEP_VELOCITY, groundUtils, position)
 {
   auto gen = std::bind(std::uniform_int_distribution<>(0,1),std::default_random_engine());
@@ -58,7 +47,7 @@ void Sheep::move() {
       onBoost = false;
       this->velocity /= SHEEP_BOOST;
     }
-    this->setPositionToDirection(getRandomPosition());
+    this->setPositionToDirection(randomPosition.getRandomPosition());
   }
 
   Character::move();

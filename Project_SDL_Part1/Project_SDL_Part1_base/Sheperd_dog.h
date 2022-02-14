@@ -11,9 +11,9 @@
 class Sheperd_dog : public Character {
 public:
   Sheperd_dog(int ID, SDL_Surface* image_ptr_, GroundUtils* groundUtils,
-              Sheperd* pSheperd);
+              std::shared_ptr<Sheperd>& pSheperd,Position position);
   void move() override;
-  Sheperd* sheperd;
+  std::shared_ptr<Sheperd> sheperd;
 };
 
 #endif // PROJECT_SDL1_SHEPERD_DOG_H

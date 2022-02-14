@@ -4,8 +4,6 @@
 
 #ifndef PROJECT_SDL1_CHARACTER_H
 #define PROJECT_SDL1_CHARACTER_H
-
-#include <random>
 #include <functional>
 #include "Position.h"
 #include "Project_SDL1.h"
@@ -23,13 +21,8 @@ private:
 protected:
   float min_x = 0;// frame_boundary;
   float min_y = 0;//frame_boundary;
-  float max_x = float(frame_width - this->width); //- frame_boundary
-  float max_y = float(frame_height - this->height);//- frame_boundary
-
-
-  std::default_random_engine generator;
-  std::uniform_real_distribution<float> randomX;
-  std::uniform_real_distribution<float> randomY;
+  float max_x; //- frame_boundary
+  float max_y;//- frame_boundary
 
   GroundUtils* groundUtils;
   // The texture of the Sheep (the loaded image), use
@@ -44,10 +37,6 @@ public:
             float velocity,
             GroundUtils* groundUtils,
             Position position);
-  Character(int ID,
-            SDL_Surface* image_ptr_,
-            float velocity,
-            GroundUtils* groundUtils);
   ~Character();
 
   virtual void move()
@@ -79,7 +68,6 @@ public:
   void setCenterY(float centerY);
   void setPositionToOpoDirection(Position position);
   int ID;
-
   Position getRandomPosition();
   int width;
   int height;

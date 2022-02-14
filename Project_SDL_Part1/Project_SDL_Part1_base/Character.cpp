@@ -9,28 +9,6 @@ Character::Character(
     int ID,
     SDL_Surface* image_ptr_,
     float velocity,
-    GroundUtils* groundUtils)
-{
-  this->image_ptr_ = image_ptr_;
-  this->ID = ID;
-
-  this->groundUtils = groundUtils;
-
-  this->width = this->image_ptr_->w;
-  this->height = this->image_ptr_->h;
-
-  this->velocity = velocity;
-
-  this->randomX = std::uniform_real_distribution<float>(min_x, max_x);//,std::default_random_engine());
-  this->randomY = std::uniform_real_distribution<float>(min_y, max_y);
-
-  this->corner = getRandomPosition();
-}
-
-Character::Character(
-    int ID,
-    SDL_Surface* image_ptr_,
-    float velocity,
     GroundUtils* groundUtils,
     Position position)
 {
@@ -41,6 +19,8 @@ Character::Character(
 
   this->width = this->image_ptr_->w;
   this->height = this->image_ptr_->h;
+    this->max_x = frame_width - this->width;
+    this->max_y = frame_height - this->height;
 
   this->velocity = velocity;
 
@@ -92,10 +72,5 @@ void Character::setPositionToOpoDirection(Position position) {
     float y_dir = velocity * sinf * -1;
     this->corner.y_pos += y_dir;
   }
-}
-
-Position Character::getRandomPosition()
-{
-  return {randomX(generator), randomY(generator)};
 }
 

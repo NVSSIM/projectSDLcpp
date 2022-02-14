@@ -5,146 +5,142 @@
 		<Option title="Project_SDL_sub"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Project_SDL_Part1_base\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2_IMAGE\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Project_SDL_Part1_base\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base"/>
+				<Option working_dir="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SDL_part1">
-				<Option output="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/SDL_part1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base"/>
+				<Option output="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/SDL_part1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/SDL2"/>
-					<Add directory="/usr/include/SDL2_image"/>
-					<Add directory="/usr/include/c++/10"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
-					<Add directory="/usr/include/c++/10/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="C:/Users/33668/source/repos/Project_SDL_Part1/Project_SDL_Part1_base/SDL2/include"/>
+					<Add directory="C:/Users/33668/source/repos/Project_SDL_Part1/Project_SDL_Part1_base/SDL2_image/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 SDL_part1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 SDL_part1"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SDL_part1/fast">
-				<Option output="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/SDL_part1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base"/>
+				<Option output="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/SDL_part1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/SDL2"/>
-					<Add directory="/usr/include/SDL2_image"/>
-					<Add directory="/usr/include/c++/10"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
-					<Add directory="/usr/include/c++/10/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="C:/Users/33668/source/repos/Project_SDL_Part1/Project_SDL_Part1_base/SDL2/include"/>
+					<Add directory="C:/Users/33668/source/repos/Project_SDL_Part1/Project_SDL_Part1_base/SDL2_image/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 SDL_part1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 SDL_part1/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Character.cpp">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Character.cpp">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Character.h">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Character.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Ground.cpp">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Ground.cpp">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Ground.h">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Ground.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/GroundUtils.h">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/GroundUtils.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Position.cpp">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Position.cpp">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Position.h">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Position.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Project_SDL1.cpp">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Project_SDL1.cpp">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Project_SDL1.h">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Project_SDL1.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheep.cpp">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/RandomPosition.cpp">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheep.h">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/RandomPosition.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/SheepObserver.h">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheep.cpp">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd.cpp">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheep.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd.h">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/SheepObserver.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.cpp">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd.cpp">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.h">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Wolf.cpp">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.cpp">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Wolf.h">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/WolfObserver.h">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Wolf.cpp">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/application.cpp">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/Wolf.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/application.h">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/WolfObserver.h">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/main.cpp">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/application.cpp">
 			<Option target="SDL_part1"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/CMakeLists.txt">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/application.h">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/main.cpp">
+			<Option target="SDL_part1"/>
+		</Unit>
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/CMakeLists.txt">
+		<Unit filename="C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/Project_SDL_Part1_base/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Project_SDL_Part1_base\"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/../../../../../usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\"/>
-		</Unit>
-		<Unit filename="/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/../../../../../usr/lib/x86_64-linux-gnu/cmake/SDL2_IMAGE/sdl2_image-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2_IMAGE\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

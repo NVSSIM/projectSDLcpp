@@ -19,16 +19,16 @@ private:
   SDL_Surface* window_surface_ptr_;
 
 public:
-  std::vector<Character*> characters;
+
+  std::vector<std::shared_ptr<Character>> characters;
   Sheperd_dog *dog;
-  Sheperd *playable_sheperd;
 
   Ground(SDL_Surface* window_surface_ptr);
   ~Ground();
 
   void update();
   // Possibly other methods, depends on your implementation
-  void add_character(Character *character);
+  void add_character(const std::shared_ptr<Character> character);
 
  // void add_character(Wolf character);
   //void add_character(Sheep character);
@@ -43,7 +43,8 @@ public:
   void sheepHavingBaby(Position position) override;
   void wolfIsHungry(int id) override;
   bool canEat(Position fromPosition) override;
-  void draw(Character* character);
+  void draw(Character& character);
 
+    Position getRandomPosition();
 };
 #endif // PROJECT_SDL1_GROUND_H

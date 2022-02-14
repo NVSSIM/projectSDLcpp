@@ -7,8 +7,8 @@
 #include "Project_SDL1.h"
 
 Sheperd::Sheperd(int ID, SDL_Surface* image_ptr_,
-                 GroundUtils* groundUtils)
-    : Character(ID, image_ptr_, 1, groundUtils) {}
+                 GroundUtils* groundUtils,Position position)
+    : Character(ID, image_ptr_, 1, groundUtils,position) {}
 
 void Sheperd::move(){
   const Uint8* keyboard_state_array = SDL_GetKeyboardState(NULL);

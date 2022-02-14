@@ -4,9 +4,11 @@
 
 #include "Wolf.h"
 
+
+
 Wolf::Wolf(int id, SDL_Surface* imagePtr,
-           GroundUtils* groundUtils, WolfObserver* wolfObserver)
-    : Character(id, imagePtr, WOLF_VELOCITY, groundUtils),
+           GroundUtils* groundUtils, WolfObserver* wolfObserver,Position position)
+    : Character(id, imagePtr, WOLF_VELOCITY, groundUtils,position),
       wolfObserver(wolfObserver) {this->wolfObserver = wolfObserver;
   this->timeLeft = timeBeforeHungry;}
 

@@ -15,6 +15,7 @@ private:
   unsigned int n_wolf;
   unsigned int n_sheep;
   Ground* app_grnd;
+  RandomPosition randomPosition;
   // Other attributes here, for example an instance of Ground
 
 public:

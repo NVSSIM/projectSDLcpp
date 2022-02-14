@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Project_SDL1" targetName="SDL_part1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="851c33aa-f83b-41a5-84a2-b2c67874faa2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/RandomPosition.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/RandomPosition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Character.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Character.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Ground.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Ground.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Wolf.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Wolf.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Wolf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Wolf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ee69bfb9b3ad1ccf53e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-94b4019f5f246634e2bf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9161fdca6a0dd3b8cf5c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/.cmake/api/v1/reply/directory-Project_SDL_Part1_base-Debug-9c18ff90436fb60430d0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/.cmake/api/v1/reply/index-2022-02-14T16-53-33-0059.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/.cmake/api/v1/reply/target-SDL_part1-Debug-7d940882735822668a9e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-6cd359bdf94d1dfe5f73.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/Progress/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Project_SDL1.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/Project_SDL1.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/SDL_part1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Project_SDL_sub.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/Project_SDL_sub.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/SDL_part1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Project_SDL_Part1_base/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+    </list>
+    <list id="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" name="Changes by etsugo" comment="">
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Character.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Character.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Character.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Ground.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Ground.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Ground.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Ground.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Project_SDL1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Project_SDL1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Project_SDL1.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Project_SDL1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheep.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheep.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheep.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheep.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/application.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/CMakeLists.txt">
+      <ranges>
+        <range start1="21" end1="22" start2="21" end2="22" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="31" end1="32" start2="31" end2="32" changelist="851c33aa-f83b-41a5-84a2-b2c67874faa2" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Ground.cpp">
+      <ranges>
+        <range start1="13" end1="14" start2="13" end2="15" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="18" end1="18" start2="19" end2="20" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="22" end1="22" start2="24" end2="25" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="35" end1="37" start2="38" end2="40" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="56" end1="59" start2="59" end2="63" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="60" end1="66" start2="64" end2="73" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="76" end1="79" start2="83" end2="86" changelist="851c33aa-f83b-41a5-84a2-b2c67874faa2" />
+        <range start1="80" end1="81" start2="87" end2="88" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="93" end1="96" start2="100" end2="103" changelist="851c33aa-f83b-41a5-84a2-b2c67874faa2" />
+        <range start1="97" end1="98" start2="104" end2="105" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="110" end1="113" start2="117" end2="120" changelist="851c33aa-f83b-41a5-84a2-b2c67874faa2" />
+        <range start1="114" end1="115" start2="121" end2="122" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="119" end1="120" start2="126" end2="127" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="129" end1="132" start2="136" end2="139" changelist="851c33aa-f83b-41a5-84a2-b2c67874faa2" />
+        <range start1="133" end1="134" start2="140" end2="145" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="141" end1="143" start2="152" end2="153" changelist="851c33aa-f83b-41a5-84a2-b2c67874faa2" />
+        <range start1="145" end1="145" start2="155" end2="156" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="146" end1="152" start2="157" end2="158" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="153" end1="154" start2="159" end2="160" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="157" end1="160" start2="163" end2="170" changelist="851c33aa-f83b-41a5-84a2-b2c67874faa2" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Sheperd_dog.cpp">
+      <ranges>
+        <range start1="5" end1="5" start2="5" end2="6" changelist="851c33aa-f83b-41a5-84a2-b2c67874faa2" />
+        <range start1="7" end1="9" start2="8" end2="10" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="14" end1="16" start2="15" end2="18" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/application.cpp">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="4" changelist="851c33aa-f83b-41a5-84a2-b2c67874faa2" />
+        <range start1="16" end1="16" start2="19" end2="24" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="18" end1="23" start2="26" end2="30" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="24" end1="26" start2="31" end2="32" changelist="851c33aa-f83b-41a5-84a2-b2c67874faa2" />
+        <range start1="29" end1="31" start2="35" end2="36" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="32" end1="33" start2="37" end2="37" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="39" end1="41" start2="43" end2="45" changelist="851c33aa-f83b-41a5-84a2-b2c67874faa2" />
+        <range start1="44" end1="44" start2="48" end2="49" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="47" end1="47" start2="52" end2="53" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Character.h">
+      <ranges>
+        <range start1="6" end1="8" start2="6" end2="6" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="25" end1="32" start2="23" end2="25" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="46" end1="50" start2="39" end2="39" changelist="ccc6600e-2da7-48cc-8ee7-57b2d8cf6fa9" />
+        <range start1="81" end1="82" start2="70" end2="70" changelist="851c33aa-f83b-41a5-84a2-b2c67874faa2" />
+      </ranges>
+    </file>
+  </component>
+  <component name="ProjectId" id="2567ylMCiSvzxvRd5z6HfybjLy8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projetCpp" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SDL_part1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="0 1 330000" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project_SDL1" TARGET_NAME="SDL_part1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project_SDL1" RUN_TARGET_NAME="SDL_part1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="851c33aa-f83b-41a5-84a2-b2c67874faa2" name="Changes" comment="" />
+      <created>1644835938750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644835938750</updated>
+      <workItem from="1644835941428" duration="11707000" />
+      <workItem from="1644858616177" duration="111000" />
+      <workItem from="1644858931924" duration="13086000" />
+      <workItem from="1644875703817" duration="191000" />
+      <workItem from="1644875937379" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Ground.cpp</url>
+          <line>168</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/Ground.cpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/application.cpp</url>
+          <line>36</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/application.cpp</url>
+          <line>31</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Project_SDL_Part1/Project_SDL_Part1_base/application.cpp</url>
+          <line>35</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

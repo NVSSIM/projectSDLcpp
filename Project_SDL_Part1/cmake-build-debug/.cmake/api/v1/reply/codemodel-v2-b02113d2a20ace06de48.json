@@ -10,7 +10,6 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0"
@@ -20,7 +19,6 @@
 				},
 				{
 					"build" : "Project_SDL_Part1_base",
-					"jsonFile" : "directory-Project_SDL_Part1_base-Debug-9c18ff90436fb60430d0.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0"
@@ -66,7 +64,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "SDL_part1::@f733fedb4c03951973c0",
-					"jsonFile" : "target-SDL_part1-Debug-7d940882735822668a9e.json",
+					"jsonFile" : "target-SDL_part1-Debug-41f4607b20919edb6f38.json",
 					"name" : "SDL_part1",
 					"projectIndex" : 1
 				}
@@ -76,12 +74,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1/cmake-build-debug",
-		"source" : "/home/etsugo/Documents/projetSDLcpp/Project_SDL_Part1"
+		"build" : "C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1/cmake-build-debug",
+		"source" : "C:/Users/33668/CodeEnVrac/projectSDLcpp/Project_SDL_Part1"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 2
 	}
 }

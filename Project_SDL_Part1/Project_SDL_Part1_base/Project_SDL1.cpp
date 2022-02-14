@@ -54,19 +54,31 @@ SDL_Surface* load_surface_for(const std::string& path,
 } // namespace
 SDL_Surface* newSheepImage(SDL_Surface* window_surface_ptr_)
 {
-  return load_surface_for("../../media/sheep.png", window_surface_ptr_);
+    SDL_Surface* image = load_surface_for("../../media/sheep.png", window_surface_ptr_);
+    image->w = 100;
+    image->h = 100;
+  return image;
 }
 SDL_Surface* newWolfImage(SDL_Surface* window_surface_ptr_)
 {
-  return load_surface_for("../../media/wolf.png", window_surface_ptr_);
+    SDL_Surface* image = load_surface_for("../../media/wolf.png", window_surface_ptr_);
+    image->w = 100;
+    image->h = 100;
+    return image;
 }
 SDL_Surface* newShepImage(SDL_Surface* window_surface_ptr_)
 {
-  return load_surface_for("../../media/sheperd.png", window_surface_ptr_);
+    SDL_Surface* image = load_surface_for("../../media/sheperd.png", window_surface_ptr_);
+    image->w = 100;
+    image->h = 100;
+    return image;
 }
 SDL_Surface* newDogImage(SDL_Surface* window_surface_ptr_)
 {
-  return load_surface_for("../../media/dog.png", window_surface_ptr_);
+    SDL_Surface* image = load_surface_for("../../media/dog.png", window_surface_ptr_);
+    image->w = 100;
+    image->h = 100;
+    return image;
 }
 int ID = 0;
 
@@ -74,8 +86,6 @@ int newID()
 {
   return ID++;
 }
-
-
 
 
 

@@ -11,15 +11,18 @@
 //
 // Created by etsugo on 12/02/2022.
 //
-Ground::Ground(SDL_Surface* window_surface_ptr) {
+Ground::Ground(SDL_Surface* window_surface_ptr)
+{
   this->window_surface_ptr_ = window_surface_ptr;
 }
 
 Ground::~Ground() {
+    /*
   std::vector<Character>::size_type size = characters.size();
   for (int i = 0; i < size; ++i) {
     delete &characters[i];//TODO smart pointer
   }
+     */
 }
 
 void Ground::update() {
@@ -33,8 +36,8 @@ void Ground::update() {
 
   std::vector<Character>::size_type size = characters.size();
   for(std::vector<Character>::size_type i=0;i<size;++i){
-    characters[i]->move();
-    draw(characters[i]);
+    characters[i].get()->move();
+    draw(characters[i].operator*());
   }
 }
 
@@ -54,16 +57,20 @@ Ground::getNearestSheepPosition(Position fromPosition, int ID)
 
   float lastDistance = std::numeric_limits<float>::max();
 
-  std::vector<Character>::size_type size = characters.size();
-  for(std::vector<Character>::size_type i=0;i<size;++i){
-    if (dynamic_cast<Sheep*>(characters[i]) && characters[i]->ID != ID)
+    std::vector<std::shared_ptr<Character>>::size_type size = characters.size();
+  for(std::vector<std::shared_ptr<Character>>::size_type i=0;i<size;++i){
+
+    if (auto castChar = dynamic_cast<Sheep*>(characters[i].get()))
     {
-      float distance_current_sheep  = characters[i]->getDistanceFrom(fromPosition);
-      if(distance_current_sheep <= lastDistance)
-      {
-        sheepToEatPosition = characters[i]->getCenter();
-        lastDistance = distance_current_sheep;
-      }
+        if (characters[i]->ID != ID)
+        {
+            float distance_current_sheep  = castChar->getDistanceFrom(fromPosition);
+            if(distance_current_sheep <= lastDistance)
+            {
+                sheepToEatPosition = castChar->getCenter();
+                lastDistance = distance_current_sheep;
+            }
+        }
     }
   }
 
@@ -74,11 +81,11 @@ bool Ground::canEat(Position fromPosition) {
 
   bool eat = false;
 
-  std::vector<Character>::size_type size = characters.size();
-  for(std::vector<Character>::size_type i=0;i<size;++i){
-    if (dynamic_cast<Sheep*>(characters[i]))
+  std::vector<std::shared_ptr<Character>>::size_type size = characters.size();
+  for(std::vector<std::shared_ptr<Character>>::size_type i=0;i<size;++i){
+    if (auto castChar = dynamic_cast<Sheep*>(characters[i].get()))
     {
-      float distance_current_sheep  = characters[i]->getDistanceFrom(fromPosition);
+      float distance_current_sheep  = castChar->getDistanceFrom(fromPosition);
       if(distance_current_sheep <= DISTANCE_TO_EAT_SHEEP)
       {
         characters.erase(characters.begin() + i);
@@ -91,11 +98,11 @@ bool Ground::canEat(Position fromPosition) {
 
 void Ground::wolfIsHungry(int id)
 {
-  std::vector<Character>::size_type size = characters.size();
-  for(std::vector<Character>::size_type i=0;i<size;++i){
-    if (dynamic_cast<Wolf*>(characters[i]))
+  std::vector<std::shared_ptr<Character>>::size_type size = characters.size();
+  for(std::vector<std::shared_ptr<Character>>::size_type i=0;i<size;++i){
+    if (auto castChar = dynamic_cast<Wolf*>(characters[i].get()))
     {
-      if(characters[i]->ID == id)
+      if(castChar->ID == id)
       {
         characters.erase(characters.begin() + i);
       }
@@ -108,16 +115,16 @@ std::optional<Position> Ground::getWolfToRunAway(Position fromPosition)
   std::optional<Position> wolfToRunPosition = std::nullopt;
   float distance_last_wolf  = std::numeric_limits<float>::max();
 
-  std::vector<Character>::size_type size = characters.size();
-  for(std::vector<Character>::size_type i=0;i<size;++i){
-    if (dynamic_cast<Wolf*>(characters[i]))
+  std::vector<std::shared_ptr<Character>>::size_type size = characters.size();
+  for(std::vector<std::shared_ptr<Character>>::size_type i=0;i<size;++i){
+    if (auto castChar = dynamic_cast<Wolf*>(characters[i].get()))
     {
-      float distance_current_wolf  = characters[i]->getDistanceFrom(fromPosition);
+      float distance_current_wolf  = castChar->getDistanceFrom(fromPosition);
       if(distance_current_wolf <= SHEEP_PROXIMITY_RUN_AWAY){
         if(distance_current_wolf < distance_last_wolf)
         {
           distance_last_wolf = distance_current_wolf;
-          wolfToRunPosition = characters[i]->getCenter();
+          wolfToRunPosition = castChar->getCenter();
         }
       }
     }
@@ -127,11 +134,15 @@ std::optional<Position> Ground::getWolfToRunAway(Position fromPosition)
 
 bool Ground::findSheepMalePartner(Position fromPosition) {
   bool findPartner = false;
-  std::vector<Character>::size_type size = characters.size();
-  for(std::vector<Character>::size_type i=0; (i<size && !findPartner); ++i){
-    if (dynamic_cast<Sheep*>(characters[i]) && Male == dynamic_cast<Sheep*>(characters[i])->sex)
+  std::vector<std::shared_ptr<Character>>::size_type size = characters.size();
+  for(std::vector<std::shared_ptr<Character>>::size_type i=0; (i<size && !findPartner); ++i){
+    if (auto castChar = dynamic_cast<Sheep*>(characters[i].get()))
     {
-      findPartner = true;
+        if(castChar->getDistanceFrom(fromPosition) <= SHEEP_PROXIMITY_TO_HAVE_SEX){
+            if (Male == castChar->sex){
+                findPartner = true;
+            }
+        }
     }
   }
   return findPartner;
@@ -139,25 +150,24 @@ bool Ground::findSheepMalePartner(Position fromPosition) {
 
 void Ground::sheepHavingBaby(Position position)
 {
-  auto babySheep = Sheep(newID(), newSheepImage(window_surface_ptr_), this, position, this);
-  add_character(&babySheep);
+  add_character(std::make_shared<Sheep>(newID(),newSheepImage(window_surface_ptr_), this, position,this));
 }
 
+void Ground::add_character(const std::shared_ptr<Character> character) {
 
-void Ground::add_character(Character *character) {
-  if (dynamic_cast<Sheperd_dog*>(character))
+  if (auto castChar = dynamic_cast<Sheperd_dog*>(character.get()))
   {
-    playable_sheperd = dynamic_cast<Sheperd*>(character);
-  }
-  else if (dynamic_cast<Sheperd_dog*>(character))
-  {
-    dog = dynamic_cast<Sheperd_dog*>(character);
+    dog = castChar;
   }
   characters.push_back(character);
 }
-void Ground::draw(Character *character) {
-  auto destRect = SDL_Rect{static_cast<int>(character->corner.x_pos),static_cast<int>(character->corner.y_pos), character->width, character->height}; //TODO w and h of png surface
-  int result = SDL_BlitScaled(character->image_ptr_, NULL, this->window_surface_ptr_, &destRect);
+void Ground::draw(Character& character) {
+    int x = character.corner.x_pos;
+    int y = character.corner.y_pos;
+    int w = character.width;
+    int h = character.height;
+  auto destRect = SDL_Rect{x,y, w, h}; //TODO w and h of png surface
+  int result = SDL_BlitScaled(character.image_ptr_, NULL, this->window_surface_ptr_, &destRect);
   if (result < 0) {
     throw std::runtime_error("draw(): SBlitScaled FAiled "
                              "SDL_BitScaled Error: " +

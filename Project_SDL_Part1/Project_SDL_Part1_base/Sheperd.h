@@ -12,7 +12,7 @@ class Sheperd : public Character {
 public:
   Sheperd(int ID,
             SDL_Surface* image_ptr_,
-            GroundUtils* groundUtils);
+            GroundUtils* groundUtils,Position position);
   void move() override;
 };
 

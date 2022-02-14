@@ -17,7 +17,7 @@ public:
   WolfObserver* wolfObserver;
 
   Wolf(int id, SDL_Surface* imagePtr, GroundUtils* groundUtils,
-       WolfObserver* wolfObserver);
+       WolfObserver* wolfObserver,Position position);
   void move() override;
   void checkHungry();
 };
